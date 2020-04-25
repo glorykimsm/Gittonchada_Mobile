@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/item1"
-        android:icon="@drawable/ic_weather1"
+        android:icon="@drawable/ic_cloudy"
         android:title="@string/title_home" />
 
     <item
         android:id="@+id/item2"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_predict3"
         android:title="@string/title_dashboard" />
 
     <item

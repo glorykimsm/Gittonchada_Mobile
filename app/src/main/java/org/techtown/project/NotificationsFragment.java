@@ -1,4 +1,4 @@
-package org.techtown.project.ui.notifications;
+package org.techtown.project;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,8 +15,6 @@ import androidx.lifecycle.ViewModelProviders;
 import org.techtown.project.R;
 
 public class NotificationsFragment extends Fragment {
-
-    private NotificationsViewModel notificationsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {

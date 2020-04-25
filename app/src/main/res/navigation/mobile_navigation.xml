@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="org.techtown.project.ui.home.HomeFragment"
+        android:name="org.techtown.project.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
     <fragment
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/notificationsFragment"
-        android:name="org.techtown.project.ui.notifications.NotificationsFragment"
+        android:name="org.techtown.project.NotificationsFragment"
         android:label="fragment_notifications"
         tools:layout="@layout/fragment_notifications" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="org.techtown.project.ui.dashboard.DashboardFragment"
+        android:name="org.techtown.project.DashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" >
         <action

@@ -1,4 +1,4 @@
-package org.techtown.project.ui.home;
+package org.techtown.project;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,12 +14,11 @@ import androidx.lifecycle.ViewModelProviders;
 
 import org.techtown.project.R;
 
-public class HomeFragment extends Fragment {
-
-    private HomeViewModel homeViewModel;
+public class DashboardFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_home, container, false);
+
+        return inflater.inflate(R.layout.fragment_dashboard, container, false);
     }
 }
