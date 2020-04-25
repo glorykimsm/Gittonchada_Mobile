@@ -35,7 +35,7 @@ public class Main extends AppCompatActivity {
         frag_home = new HomeFragment();
         frag_noti = new NotificationsFragment();
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, frag_home).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, frag_home).commit();
 
         BottomNavigationView bnv = findViewById(R.id.nav_view);
         bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -44,19 +44,19 @@ public class Main extends AppCompatActivity {
 
                 switch(item.getItemId()){
                     case R.id.item1:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, frag_home).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, frag_home).commit();
                         Toast.makeText(getApplicationContext(), "home", Toast.LENGTH_LONG).show();
                         return true;
                     case R.id.item2:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, frag_black).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, frag_black).commit();
 
                         return true;
                     case R.id.item3:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, frag_dash).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, frag_dash).commit();
 
                         return true;
                     case R.id.item4:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, frag_noti).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, frag_noti).commit();
 
                         return true;
                 }
