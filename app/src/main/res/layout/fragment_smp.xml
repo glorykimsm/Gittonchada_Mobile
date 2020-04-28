@@ -17,9 +17,9 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="413dp"
-                android:layout_height="604dp"
-                android:background="@drawable/gr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_light_background"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"

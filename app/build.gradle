@@ -36,4 +36,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.android.volley:volley:1.1.0'   // 코드 추가 후 -> 우측상단 Sync Now 클릭
+    // 외부 라이브러리를 설치
+    implementation 'com.google.code.gson:gson:2.8.5'  // 코드 추가 -> 우측상단 Sync Now 클릭
 }

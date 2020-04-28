@@ -2,8 +2,6 @@ package org.techtown.project;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.ImageView;
-import android.widget.ScrollView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -13,10 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Main extends AppCompatActivity {
     // 주석
-    DashboardFragment frag_dash;
-    HomeFragment frag_home;
-    NotificationsFragment frag_noti;
-    BlankFragment frag_black;
+    smpFragment frag_dash;
+    weatherFragment frag_home;
+    communicationFragment frag_noti;
+    predictFragment frag_black;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +22,10 @@ public class Main extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
 
-        frag_black = new BlankFragment();
-        frag_dash = new DashboardFragment();
-        frag_home = new HomeFragment();
-        frag_noti = new NotificationsFragment();
+        frag_black = new predictFragment();
+        frag_dash = new smpFragment();
+        frag_home = new weatherFragment();
+        frag_noti = new communicationFragment();
 
         getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, frag_home).commit();
 

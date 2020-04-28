@@ -7,11 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.ScrollView;
 
 
-public class BlankFragment extends Fragment {
+public class predictFragment extends Fragment {
 
 
     @Override
@@ -19,6 +17,6 @@ public class BlankFragment extends Fragment {
                              Bundle savedInstanceState) {
 
 
-        return inflater.inflate(R.layout.fragment_blank, container, false);
+        return inflater.inflate(R.layout.fragment_predict, container, false);
     }
 }
