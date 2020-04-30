@@ -7,4 +7,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="temp">temp</string>
+    <string name="windSpeed">풍속</string>
+    <string name="clound">운량</string>
+    <string name="time">시간</string>
+    <string name="sunrise">해뜨는 시간</string>
+    <string name="sunSet">해지는 시간</string>
+    <string name="load">불러오기</string>
+    <string name="weather">날씨</string>
+    <string name="location">지역</string>
 </resources>
